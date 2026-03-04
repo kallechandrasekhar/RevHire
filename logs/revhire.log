@@ -1,0 +1,139 @@
+2026-03-04 22:31:47.826 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-03-04 22:31:47.895 [main] INFO  com.revhire.RevHireApplication - Starting RevHireApplication using Java 21.0.8 with PID 25740 (C:\Users\chand\OneDrive\Desktop\Rev_Hire\Rev-Hire\target\classes started by chand in C:\Users\chand\OneDrive\Desktop\Rev_Hire)
+2026-03-04 22:31:47.899 [main] DEBUG com.revhire.RevHireApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2026-03-04 22:31:47.901 [main] INFO  com.revhire.RevHireApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-04 22:31:49.255 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-04 22:31:49.401 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 138 ms. Found 9 JPA repository interfaces.
+2026-03-04 22:31:50.147 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-04 22:31:50.153 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2026-03-04 22:31:50.194 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2026-03-04 22:31:50.206 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-04 22:31:50.210 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-04 22:31:50.210 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-03-04 22:31:50.342 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-04 22:31:50.345 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2372 ms
+2026-03-04 22:31:50.718 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-04 22:31:50.796 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-03-04 22:31:50.844 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-03-04 22:31:51.233 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-04 22:31:51.265 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-04 22:31:51.437 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@b339a08
+2026-03-04 22:31:51.442 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-04 22:31:51.513 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-04 22:31:51.515 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-03-04 22:31:53.172 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-04 22:31:53.330 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-04 22:31:53.839 [main] DEBUG com.revhire.security.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2026-03-04 22:31:54.339 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-04 22:31:54.797 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@67726dd1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@45c270f9, org.springframework.security.web.context.SecurityContextHolderFilter@4ee41c66, org.springframework.security.web.header.HeaderWriterFilter@4c6ebaf2, org.springframework.web.filter.CorsFilter@4b7704ec, org.springframework.security.web.authentication.logout.LogoutFilter@5da20b76, com.revhire.security.JwtAuthFilter@33fc92d6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2746bc43, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@16d31c48, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@39d6504b, org.springframework.security.web.session.SessionManagementFilter@59845cb3, org.springframework.security.web.access.ExceptionTranslationFilter@5ce9c9e8, org.springframework.security.web.access.intercept.AuthorizationFilter@47ccbbd5]
+2026-03-04 22:31:55.206 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-04 22:31:55.237 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2026-03-04 22:31:55.245 [main] INFO  com.revhire.RevHireApplication - Started RevHireApplication in 7.943 seconds (process running for 9.428)
+2026-03-04 22:34:30.955 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-04 22:34:30.955 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-04 22:34:30.958 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-03-04 22:34:30.999 [http-nio-8080-exec-1] DEBUG org.springframework.security.web.FilterChainProxy - Securing OPTIONS /api/v1/auth/register
+2026-03-04 22:34:31.199 [http-nio-8080-exec-1] DEBUG org.springframework.security.web.FilterChainProxy - Securing POST /api/v1/auth/register
+2026-03-04 22:34:31.207 [http-nio-8080-exec-1] DEBUG org.springframework.security.web.authentication.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-04 22:34:31.209 [http-nio-8080-exec-1] DEBUG org.springframework.security.web.FilterChainProxy - Secured POST /api/v1/auth/register
+2026-03-04 22:34:31.730 [http-nio-8080-exec-1] INFO  com.revhire.service.impl.AuthServiceImpl - Registration attempt for email: harish@gmail.com
+2026-03-04 22:34:32.756 [http-nio-8080-exec-1] INFO  com.revhire.service.impl.AuthServiceImpl - User registered successfully with id 18 and role JOB_SEEKER
+2026-03-04 22:34:32.756 [http-nio-8080-exec-1] DEBUG com.revhire.service.impl.AuthServiceImpl - Creating JobSeeker profile for user harish@gmail.com
+2026-03-04 22:34:32.769 [http-nio-8080-exec-1] INFO  com.revhire.service.impl.AuthServiceImpl - JobSeeker profile created for user harish@gmail.com
+2026-03-04 22:34:32.854 [http-nio-8080-exec-1] INFO  com.revhire.service.impl.AuthServiceImpl - JWT token generated for user harish@gmail.com
+2026-03-04 22:34:35.005 [http-nio-8080-exec-3] DEBUG org.springframework.security.web.FilterChainProxy - Securing OPTIONS /api/v1/applications/my
+2026-03-04 22:34:35.013 [http-nio-8080-exec-2] DEBUG org.springframework.security.web.FilterChainProxy - Securing OPTIONS /api/v1/jobseekers/profile/me
+2026-03-04 22:34:35.025 [http-nio-8080-exec-9] DEBUG org.springframework.security.web.FilterChainProxy - Securing GET /api/v1/applications/my
+2026-03-04 22:34:35.025 [http-nio-8080-exec-5] DEBUG org.springframework.security.web.FilterChainProxy - Securing GET /api/v1/jobseekers/profile/me
+2026-03-04 22:34:35.352 [http-nio-8080-exec-9] DEBUG org.springframework.security.web.FilterChainProxy - Secured GET /api/v1/applications/my
+2026-03-04 22:34:35.352 [http-nio-8080-exec-5] DEBUG org.springframework.security.web.FilterChainProxy - Secured GET /api/v1/jobseekers/profile/me
+2026-03-04 22:34:35.360 [http-nio-8080-exec-9] INFO  com.revhire.service.impl.ApplicationServiceImpl - Fetching applications for user harish@gmail.com
+2026-03-04 22:34:35.362 [http-nio-8080-exec-9] DEBUG com.revhire.service.impl.ApplicationServiceImpl - Fetching user with email: harish@gmail.com
+2026-03-04 22:34:35.494 [http-nio-8080-exec-9] INFO  com.revhire.service.impl.ApplicationServiceImpl - User harish@gmail.com has 0 applications
+2026-03-04 22:34:41.033 [http-nio-8080-exec-4] DEBUG org.springframework.security.web.FilterChainProxy - Securing GET /api/v1/jobseekers/profile/me
+2026-03-04 22:34:41.082 [http-nio-8080-exec-4] DEBUG org.springframework.security.web.FilterChainProxy - Secured GET /api/v1/jobseekers/profile/me
+2026-03-04 22:34:43.982 [http-nio-8080-exec-7] DEBUG org.springframework.security.web.FilterChainProxy - Securing GET /api/v1/jobseekers/profile/me
+2026-03-04 22:34:44.123 [http-nio-8080-exec-7] DEBUG org.springframework.security.web.FilterChainProxy - Secured GET /api/v1/jobseekers/profile/me
+2026-03-04 22:35:12.921 [http-nio-8080-exec-8] DEBUG org.springframework.security.web.FilterChainProxy - Securing OPTIONS /api/v1/jobseekers/profile
+2026-03-04 22:35:12.935 [http-nio-8080-exec-6] DEBUG org.springframework.security.web.FilterChainProxy - Securing PUT /api/v1/jobseekers/profile
+2026-03-04 22:35:12.965 [http-nio-8080-exec-6] DEBUG org.springframework.security.web.FilterChainProxy - Secured PUT /api/v1/jobseekers/profile
+2026-03-04 22:35:27.464 [http-nio-8080-exec-1] DEBUG org.springframework.security.web.FilterChainProxy - Securing GET /api/v1/applications/my
+2026-03-04 22:35:27.466 [http-nio-8080-exec-10] DEBUG org.springframework.security.web.FilterChainProxy - Securing GET /api/v1/jobseekers/profile/me
+2026-03-04 22:35:27.552 [http-nio-8080-exec-1] DEBUG org.springframework.security.web.FilterChainProxy - Secured GET /api/v1/applications/my
+2026-03-04 22:35:27.560 [http-nio-8080-exec-10] DEBUG org.springframework.security.web.FilterChainProxy - Secured GET /api/v1/jobseekers/profile/me
+2026-03-04 22:35:27.560 [http-nio-8080-exec-1] INFO  com.revhire.service.impl.ApplicationServiceImpl - Fetching applications for user harish@gmail.com
+2026-03-04 22:35:27.574 [http-nio-8080-exec-1] DEBUG com.revhire.service.impl.ApplicationServiceImpl - Fetching user with email: harish@gmail.com
+2026-03-04 22:35:27.651 [http-nio-8080-exec-1] INFO  com.revhire.service.impl.ApplicationServiceImpl - User harish@gmail.com has 0 applications
+2026-03-04 22:35:31.085 [http-nio-8080-exec-2] DEBUG org.springframework.security.web.FilterChainProxy - Securing GET /api/v1/jobseekers/profile/me
+2026-03-04 22:35:31.102 [http-nio-8080-exec-2] DEBUG org.springframework.security.web.FilterChainProxy - Secured GET /api/v1/jobseekers/profile/me
+2026-03-04 22:35:33.745 [http-nio-8080-exec-5] DEBUG org.springframework.security.web.FilterChainProxy - Securing GET /api/v1/jobseekers/profile/me
+2026-03-04 22:35:33.746 [http-nio-8080-exec-3] DEBUG org.springframework.security.web.FilterChainProxy - Securing GET /api/v1/applications/my
+2026-03-04 22:35:33.768 [http-nio-8080-exec-3] DEBUG org.springframework.security.web.FilterChainProxy - Secured GET /api/v1/applications/my
+2026-03-04 22:35:33.768 [http-nio-8080-exec-5] DEBUG org.springframework.security.web.FilterChainProxy - Secured GET /api/v1/jobseekers/profile/me
+2026-03-04 22:35:33.769 [http-nio-8080-exec-3] INFO  com.revhire.service.impl.ApplicationServiceImpl - Fetching applications for user harish@gmail.com
+2026-03-04 22:35:33.769 [http-nio-8080-exec-3] DEBUG com.revhire.service.impl.ApplicationServiceImpl - Fetching user with email: harish@gmail.com
+2026-03-04 22:35:33.851 [http-nio-8080-exec-3] INFO  com.revhire.service.impl.ApplicationServiceImpl - User harish@gmail.com has 0 applications
+2026-03-04 22:35:35.079 [http-nio-8080-exec-4] DEBUG org.springframework.security.web.FilterChainProxy - Securing OPTIONS /api/v1/jobseekers/resume/file/me
+2026-03-04 22:35:35.080 [http-nio-8080-exec-9] DEBUG org.springframework.security.web.FilterChainProxy - Securing OPTIONS /api/v1/jobseekers/resume/text/me
+2026-03-04 22:35:35.086 [http-nio-8080-exec-7] DEBUG org.springframework.security.web.FilterChainProxy - Securing GET /api/v1/jobseekers/resume/text/me
+2026-03-04 22:35:35.088 [http-nio-8080-exec-8] DEBUG org.springframework.security.web.FilterChainProxy - Securing GET /api/v1/jobseekers/resume/file/me
+2026-03-04 22:35:35.185 [http-nio-8080-exec-7] DEBUG org.springframework.security.web.FilterChainProxy - Secured GET /api/v1/jobseekers/resume/text/me
+2026-03-04 22:35:35.201 [http-nio-8080-exec-8] DEBUG org.springframework.security.web.access.AccessDeniedHandlerImpl - Responding with 403 status code
+2026-03-04 22:35:35.217 [http-nio-8080-exec-8] DEBUG org.springframework.security.web.FilterChainProxy - Securing GET /error
+2026-03-04 22:35:35.217 [http-nio-8080-exec-8] DEBUG org.springframework.security.web.authentication.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-03-04 22:35:35.221 [http-nio-8080-exec-8] DEBUG org.springframework.security.web.authentication.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+2026-03-04 22:35:39.671 [http-nio-8080-exec-6] DEBUG org.springframework.security.web.FilterChainProxy - Securing GET /api/v1/applications/my
+2026-03-04 22:35:39.679 [http-nio-8080-exec-10] DEBUG org.springframework.security.web.FilterChainProxy - Securing GET /api/v1/jobseekers/profile/me
+2026-03-04 22:35:39.706 [http-nio-8080-exec-6] DEBUG org.springframework.security.web.FilterChainProxy - Secured GET /api/v1/applications/my
+2026-03-04 22:35:39.706 [http-nio-8080-exec-6] INFO  com.revhire.service.impl.ApplicationServiceImpl - Fetching applications for user harish@gmail.com
+2026-03-04 22:35:39.708 [http-nio-8080-exec-6] DEBUG com.revhire.service.impl.ApplicationServiceImpl - Fetching user with email: harish@gmail.com
+2026-03-04 22:35:39.708 [http-nio-8080-exec-10] DEBUG org.springframework.security.web.FilterChainProxy - Secured GET /api/v1/jobseekers/profile/me
+2026-03-04 22:35:39.802 [http-nio-8080-exec-6] INFO  com.revhire.service.impl.ApplicationServiceImpl - User harish@gmail.com has 0 applications
+2026-03-04 22:35:41.172 [http-nio-8080-exec-1] DEBUG org.springframework.security.web.FilterChainProxy - Securing GET /api/v1/applications/my
+2026-03-04 22:35:41.193 [http-nio-8080-exec-1] DEBUG org.springframework.security.web.FilterChainProxy - Secured GET /api/v1/applications/my
+2026-03-04 22:35:41.195 [http-nio-8080-exec-1] INFO  com.revhire.service.impl.ApplicationServiceImpl - Fetching applications for user harish@gmail.com
+2026-03-04 22:35:41.195 [http-nio-8080-exec-1] DEBUG com.revhire.service.impl.ApplicationServiceImpl - Fetching user with email: harish@gmail.com
+2026-03-04 22:35:41.207 [http-nio-8080-exec-1] INFO  com.revhire.service.impl.ApplicationServiceImpl - User harish@gmail.com has 0 applications
+2026-03-04 22:35:45.830 [http-nio-8080-exec-2] DEBUG org.springframework.security.web.FilterChainProxy - Securing OPTIONS /api/v1/jobs/search?page=0&size=10
+2026-03-04 22:35:45.862 [http-nio-8080-exec-5] DEBUG org.springframework.security.web.FilterChainProxy - Securing GET /api/v1/jobs/search?page=0&size=10
+2026-03-04 22:35:45.954 [http-nio-8080-exec-5] DEBUG org.springframework.security.web.FilterChainProxy - Secured GET /api/v1/jobs/search?page=0&size=10
+2026-03-04 22:35:45.972 [http-nio-8080-exec-5] INFO  com.revhire.service.impl.JobServiceImpl - Searching jobs with filters: title=null, location=null, company=null, jobType=null
+2026-03-04 22:35:49.626 [http-nio-8080-exec-3] DEBUG org.springframework.security.web.FilterChainProxy - Securing OPTIONS /api/v1/jobs/4
+2026-03-04 22:35:49.651 [http-nio-8080-exec-9] DEBUG org.springframework.security.web.FilterChainProxy - Securing GET /api/v1/jobs/4
+2026-03-04 22:35:49.676 [http-nio-8080-exec-9] DEBUG org.springframework.security.web.FilterChainProxy - Secured GET /api/v1/jobs/4
+2026-03-04 22:35:49.682 [http-nio-8080-exec-9] INFO  com.revhire.service.impl.JobServiceImpl - Fetching job post by id 4
+2026-03-04 22:35:49.682 [http-nio-8080-exec-9] DEBUG com.revhire.service.impl.JobServiceImpl - Fetching job post with id: 4
+2026-03-04 22:35:49.730 [http-nio-8080-exec-4] DEBUG org.springframework.security.web.FilterChainProxy - Securing OPTIONS /api/v1/favourites/my
+2026-03-04 22:35:49.733 [http-nio-8080-exec-7] DEBUG org.springframework.security.web.FilterChainProxy - Securing GET /api/v1/favourites/my
+2026-03-04 22:35:49.764 [http-nio-8080-exec-7] DEBUG org.springframework.security.web.FilterChainProxy - Secured GET /api/v1/favourites/my
+2026-03-04 22:35:49.773 [http-nio-8080-exec-7] INFO  com.revhire.service.impl.FavouriteServiceImpl - Fetching favourites for user harish@gmail.com
+2026-03-04 22:35:49.773 [http-nio-8080-exec-7] DEBUG com.revhire.service.impl.FavouriteServiceImpl - Fetching user with email: harish@gmail.com
+2026-03-04 22:35:49.807 [http-nio-8080-exec-7] INFO  com.revhire.service.impl.FavouriteServiceImpl - User harish@gmail.com has 0 favourite jobs
+2026-03-04 22:35:57.847 [http-nio-8080-exec-8] DEBUG org.springframework.security.web.FilterChainProxy - Securing OPTIONS /api/v1/applications/apply
+2026-03-04 22:35:57.851 [http-nio-8080-exec-10] DEBUG org.springframework.security.web.FilterChainProxy - Securing POST /api/v1/applications/apply
+2026-03-04 22:35:57.956 [http-nio-8080-exec-10] DEBUG org.springframework.security.web.FilterChainProxy - Secured POST /api/v1/applications/apply
+2026-03-04 22:35:57.964 [http-nio-8080-exec-10] INFO  com.revhire.service.impl.ApplicationServiceImpl - User harish@gmail.com attempting to apply for job 4
+2026-03-04 22:35:57.964 [http-nio-8080-exec-10] DEBUG com.revhire.service.impl.ApplicationServiceImpl - Fetching user with email: harish@gmail.com
+2026-03-04 22:35:57.973 [http-nio-8080-exec-10] DEBUG com.revhire.service.impl.ApplicationServiceImpl - Fetching job post with id: 4
+2026-03-04 22:35:58.082 [http-nio-8080-exec-10] INFO  com.revhire.service.impl.ApplicationServiceImpl - Application 5 created successfully for job 4
+2026-03-04 22:35:58.088 [http-nio-8080-exec-10] INFO  com.revhire.service.impl.NotificationServiceImpl - Creating notification for userId=12, type=APPLICATION_UPDATE
+2026-03-04 22:35:58.107 [http-nio-8080-exec-10] INFO  com.revhire.service.impl.NotificationServiceImpl - Notification created successfully for userId=12
+2026-03-04 22:36:02.978 [http-nio-8080-exec-1] DEBUG org.springframework.security.web.FilterChainProxy - Securing GET /api/v1/applications/my
+2026-03-04 22:36:02.978 [http-nio-8080-exec-6] DEBUG org.springframework.security.web.FilterChainProxy - Securing GET /api/v1/jobseekers/profile/me
+2026-03-04 22:36:03.016 [http-nio-8080-exec-1] DEBUG org.springframework.security.web.FilterChainProxy - Secured GET /api/v1/applications/my
+2026-03-04 22:36:03.031 [http-nio-8080-exec-1] INFO  com.revhire.service.impl.ApplicationServiceImpl - Fetching applications for user harish@gmail.com
+2026-03-04 22:36:03.033 [http-nio-8080-exec-1] DEBUG com.revhire.service.impl.ApplicationServiceImpl - Fetching user with email: harish@gmail.com
+2026-03-04 22:36:03.059 [http-nio-8080-exec-6] DEBUG org.springframework.security.web.FilterChainProxy - Secured GET /api/v1/jobseekers/profile/me
+2026-03-04 22:36:03.078 [http-nio-8080-exec-1] INFO  com.revhire.service.impl.ApplicationServiceImpl - User harish@gmail.com has 1 applications
+2026-03-04 22:36:28.490 [http-nio-8080-exec-2] DEBUG org.springframework.security.web.FilterChainProxy - Securing OPTIONS /api/v1/notifications/my
+2026-03-04 22:36:28.500 [http-nio-8080-exec-2] DEBUG org.springframework.security.web.FilterChainProxy - Securing GET /api/v1/notifications/my
+2026-03-04 22:36:28.564 [http-nio-8080-exec-2] DEBUG org.springframework.security.web.FilterChainProxy - Secured GET /api/v1/notifications/my
+2026-03-04 22:36:28.572 [http-nio-8080-exec-2] DEBUG com.revhire.service.impl.NotificationServiceImpl - Fetching user with email: harish@gmail.com
+2026-03-04 22:36:28.584 [http-nio-8080-exec-2] INFO  com.revhire.service.impl.NotificationServiceImpl - Fetching notifications for userId=18
+2026-03-04 22:36:28.595 [http-nio-8080-exec-2] INFO  com.revhire.service.impl.NotificationServiceImpl - Fetched 0 notifications for userId=18
+2026-03-04 22:36:36.962 [http-nio-8080-exec-9] DEBUG org.springframework.security.web.FilterChainProxy - Securing OPTIONS /api/v1/notifications/my
+2026-03-04 22:36:36.965 [http-nio-8080-exec-4] DEBUG org.springframework.security.web.FilterChainProxy - Securing GET /api/v1/notifications/my
+2026-03-04 22:36:36.993 [http-nio-8080-exec-4] DEBUG org.springframework.security.web.FilterChainProxy - Secured GET /api/v1/notifications/my
+2026-03-04 22:36:36.998 [http-nio-8080-exec-4] DEBUG com.revhire.service.impl.NotificationServiceImpl - Fetching user with email: harish@gmail.com
+2026-03-04 22:36:37.006 [http-nio-8080-exec-4] INFO  com.revhire.service.impl.NotificationServiceImpl - Fetching notifications for userId=18
+2026-03-04 22:36:37.006 [http-nio-8080-exec-4] INFO  com.revhire.service.impl.NotificationServiceImpl - Fetched 0 notifications for userId=18
